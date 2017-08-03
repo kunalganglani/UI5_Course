@@ -1,0 +1,7 @@
+<mvc:View controllerName="sap.ui.demo.wt.controller.App" xmlns:l="sap.ui.layout" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+	<l:VerticalLayout class="sapUiSmallMargin">
+		<Button text="Say Hello" press="onShowHello"/>
+		<Link text="Click me" press="handleLinkPress"/>
+		<Button text="Double" press="showDouble"/>
+	</l:VerticalLayout>
+</mvc:View>
