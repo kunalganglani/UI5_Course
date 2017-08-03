@@ -1,0 +1,13 @@
+<mvc:View controllerName="sap.ui.demo.wt.controller.App" xmlns:l="sap.ui.layout" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+	<l:HorizontalLayout class="sapUiSmallMargin">
+		<!--src="{img>/products/pic1}"-->
+			
+		<Image
+			class="sapUiSmallMarginEnd"
+			src="http://searchengineland.com/figz/wp-content/seloads/2015/12/google-amp-fast-speed-travel-ss-1920.jpg"
+			densityAware="true"
+			width="300px">
+		</Image>
+		<Text class="column1" text="Google Search engine is the most frequently used search engine in the world. "></Text>
+	</l:HorizontalLayout>
+</mvc:View>
