@@ -1,0 +1,20 @@
+<mvc:View controllerName="sap.ui.demo.wt.controller.App" xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<VBox class="sapUiSmallMargin">
+		<Label text="NAME"  design="Bold" />
+		<Text text="{/intro/name}" class="sapUiSmallMargin"/>
+		<Label text="LAST NAME"  design="Bold" />
+		<Text text="{/intro/lastname}" class="sapUiSmallMargin"/>
+		<Label text="COURSE"  design="Bold" />
+		
+		<Text text="{/intro/course}" class="sapUiSmallMargin"/>
+		<Label text="POST"  design="Bold" />
+		
+		<Text text="{/intro/post}" class="sapUiSmallMargin"/>
+		<Label text="SUBJECT UNIT 5"  design="Bold" />
+		
+		<Text text="{/subjects/part1}" class="sapUiSmallMargin"/>
+		<Label text="SUBJECT UNIT 6"  design="Bold" />
+		
+		<Text text="{/subjects/part2}" class="sapUiSmallMargin"/>
+	</VBox>
+</mvc:View>
