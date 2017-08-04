@@ -1,0 +1,3 @@
+Create Assignment one using only HTML. Write your own name in the body, since that will make more sense. 
+Intention of this assignment is to make you accustomed to writing HTML.
+Refer Walkthrough 1 in case of any difficulties. 
