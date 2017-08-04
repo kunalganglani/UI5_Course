@@ -13,22 +13,18 @@ sap.ui.define([
 			var oData = {
 				intro : {
 					name : "Kunal",
-					lastname: "ganglani",
+					lastname: "Ganglani",
 					course: "UI5",
-					post: "trainer"
+					post: "Trainer"
 				},
 				subjects: {
-					part1: "HTML css and Javascript Basics",
+					part1: "HTML CSS and JavaScript Basics",
 					part2: "UI5 Application Development"
 				}
 			};
 			var oModel = new JSONModel(oData);
 			this.getView().setModel(oModel);//this data is accessible to the view now. 
-		},
- 
-		onShowHello : function () {
-			MessageToast.show("Hello World");
 		}
-	});
+		});
  
 });

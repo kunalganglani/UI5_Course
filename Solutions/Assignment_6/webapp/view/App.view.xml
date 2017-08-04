@@ -10,10 +10,10 @@
 		<Label text="POST"  design="Bold" />
 		
 		<Text text="{/intro/post}" class="sapUiSmallMargin"/>
-		<Label text="SUBJECT UNIT 5"  design="Bold" />
+		<Label text="SUBJECT UNIT 1"  design="Bold" />
 		
 		<Text text="{/subjects/part1}" class="sapUiSmallMargin"/>
-		<Label text="SUBJECT UNIT 6"  design="Bold" />
+		<Label text="SUBJECT UNIT 2"  design="Bold" />
 		
 		<Text text="{/subjects/part2}" class="sapUiSmallMargin"/>
 	</VBox>
