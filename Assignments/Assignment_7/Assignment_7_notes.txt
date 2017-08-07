@@ -1,0 +1,5 @@
+Tasks:
+1. Create the odata in the component.js file. Use this odata across your view and dialog box
+2. Use Information message dialog box on click of Read more button and show the data in the component odata. 
+3. Replace odata values with your information .
+4. Use shell container and add page title to your app. 
