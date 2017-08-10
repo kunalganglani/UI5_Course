@@ -9,6 +9,7 @@ sap.ui.define([
 		onPressButton : function (event) {
 			var buttonLabel= event.getSource().getText();
 			var answer; 
+			debugger;
 			switch(buttonLabel){
 				case '+': {
 					answer= Number(this.getView().byId("input1").getValue())+Number(this.getView().byId("input2").getValue());
