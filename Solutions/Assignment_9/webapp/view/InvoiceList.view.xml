@@ -1,0 +1,37 @@
+<mvc:View
+	controllerName="sap.ui.demo.wt.controller.InvoiceList"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<List
+		id="invoiceList"
+		class="sapUiResponsiveMargin"
+		width="auto"
+		items="{
+			path : 'employeeSet>/Employees',
+			sorter : {
+				path : 'Country',
+				group : true
+			}
+		}">
+		<headerToolbar>
+			<Toolbar>
+				<Title text="{i18n>employeeListTitle}" />
+				<ToolbarSpacer />
+				<SearchField width="50%" search="onFilterInvoices" selectOnFocus="false"/>
+			</Toolbar>
+		</headerToolbar>
+		<items>
+			<ObjectListItem
+					title="{employeeSet>FirstName} {employeeSet>LastName}"
+					number="{employeeSet>PostalCode}"
+					>
+				<!--<firstStatus>-->
+				<!--	<ObjectStatus text="{-->
+				<!--		path: 'employeeSet>Status',-->
+				<!--		formatter: '.formatter.statusText'-->
+				<!--	}"/>-->
+				<!--</firstStatus>-->
+			</ObjectListItem>
+		</items>
+	</List>
+</mvc:View>
